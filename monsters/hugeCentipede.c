@@ -1,7 +1,9 @@
 // Lord
 // Monster details
 
- <std.h>
+#include <std.h>
+#include <shivaCaverns.h>
+
 inherit MONSTER;
 
 void create() {
@@ -10,7 +12,7 @@ void create() {
     set_short("Huge Monstrous Centipede");
     set_long("monsterlong");
     set_id(({"centipede", "monstrous centipede", "huge monstrous centipede"}));
-    set_level(120);
+    set_level(SHIVA_BASELEVEL);
     set_race("centipede");
     set_body_type("human"); //TODO: Shoudl this be some sort of bug body type?
     set_gender("male");

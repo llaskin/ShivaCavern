@@ -1,14 +1,15 @@
 // by Lord
 // room, file=filename    
 
- <std.h>
+#include <std.h>
+#include <shivaCaverns.h>
 inherit ROOM;
+
 
 void create() {
 ::create();
     set_short("short description");
-    set_day_long("day long description");
-    set_night_long("night long description");
+    set_long("day long description");
     set_items(([
 	"item1" : "desc1",
 	"item2" : "desc2",
@@ -22,13 +23,14 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"south" : "shivacavern/rooms/room16.c",
+	"south" : SHIVA_ROOMS + "room16.c",
 //	"direction2" : "shivacavern/rooms/name2",
     ]));
-    
+}
     void reset() {
     if(!present("hugeCentipede"))
-	new("shivacavern/monsters/hugeCentipede")->move(this_object());
-}
+	new(SHIVA_MONSTERS + "hugeCentipede")->move(this_object
+	());
+
 }
 //Several alcoves are cut into the east and west walls, and several pieces of rotting wood are scattered throughout the room

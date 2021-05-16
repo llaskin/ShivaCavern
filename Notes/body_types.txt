@@ -1,0 +1,6 @@
+amphibian         arachnid          artrell           bat
+centaur           crustacean        djinn             dragon
+elemental         equine            fish              fowl
+insectoid         insectoid-winged  merperson        pachyderm
+quadruped         reptile           scorpion          seal   
+slug              snake             tree
