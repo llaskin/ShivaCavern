@@ -19,7 +19,7 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"east" : "filelocation/room2.c",
-	"south" : "filelocation/room10.c",
+	"east" : "shivacavern/room2.c",
+	"south" : "shivacavern/room10.c",
     ]));
 }
