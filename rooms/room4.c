@@ -10,7 +10,6 @@ void create() {
 ::create();
     set_short("short description");
     set_day_long("day long description");
-    set_night_long("night long description");
     set_items(([
 	"item1" : "desc1",
 	"item2" : "desc2",
