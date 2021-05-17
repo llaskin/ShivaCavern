@@ -17,11 +17,14 @@ void create() {
     "Their webs are extremely strong and can support many"
     "times their body weight.");
     set_id(({"spider", "monstrous spider", "medium spider", "medium monstrous spider"}));
-    set_level(SHIVA_CHALLENGE_LEVEL2);
+    set_level(SHIVA_CHALLENGE_LEVEL3);
     set_race("spider");
     set_body_type("arachnid");
     set_gender("male");
+    set_aggressive(SHIVA_CHALLENGE_CHARISMA3);
 }
+//Give this guy a bite skill, no poison tho
+
 ////Medium monstrous spider: CR 1; Medium vermin; HD 2d8+2; hp
 // 11; Init +3; Spd 30 ft. (6 squares), climb 20 ft.; AC 14
 // (+3 dex, +1 natural), touch 13, flat-footed 11; Base Atk +1;
