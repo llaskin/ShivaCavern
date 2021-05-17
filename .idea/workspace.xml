@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd13798b-3226-4b3b-abc5-c911d97b8ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/monsters/krenshar.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room10.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room11.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room12.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room13.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room14.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room15.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room16.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room17.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room18.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room19.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room20.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armour/charredWoodenShield.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room6.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room6.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room7.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room7.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room8.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room8.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room9.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room9.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/shivaCaverns.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/shivaCaverns.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room15.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room15.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room16.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room16.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room19.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room19.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room20.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room20.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="MerenthaMob" />
         <option value="MerenthaMobRoom" />
         <option value="MerenthaRoom" />
+        <option value="MerenthaMob" />
       </list>
     </option>
   </component>
@@ -216,18 +206,109 @@
       <option name="project" value="LOCAL" />
       <updated>1621215291470</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="adding krenshar&#10;adding up to room 20&#10;descriptions still need to happen">
+      <created>1621216667657</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1621216667657</updated>
+    </task>
+    <task id="LOCAL-00023" summary="adding small and large spiders&#10;updating descriptions for all 3 of them">
+      <created>1621266519045</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1621266519045</updated>
+    </task>
+    <task id="LOCAL-00024" summary="adding the next 10 rooms.">
+      <created>1621266532068</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1621266532068</updated>
+    </task>
+    <task id="LOCAL-00025" summary="adding small monstrous centipede">
+      <created>1621267955117</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1621267955117</updated>
+    </task>
+    <task id="LOCAL-00026" summary="change bite comment for these two">
+      <created>1621267985140</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1621267985140</updated>
+    </task>
+    <task id="LOCAL-00027" summary="updating most anclude's to #include statements&#10;adding next 10 20 rooms">
+      <created>1621271553209</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1621271553209</updated>
+    </task>
+    <task id="LOCAL-00028" summary="removing redundant long descriptions">
+      <created>1621271928370</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1621271928370</updated>
+    </task>
+    <task id="LOCAL-00029" summary="updating all short and long descriptions for now">
+      <created>1621272713876</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1621272713876</updated>
+    </task>
+    <task id="LOCAL-00030" summary="adding items to room4">
+      <created>1621272808572</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1621272808572</updated>
+    </task>
+    <task id="LOCAL-00031" summary="adding items and description to room 5">
+      <created>1621273024736</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1621273024736</updated>
+    </task>
+    <task id="LOCAL-00032" summary="adding items and description to room 7">
+      <created>1621273036622</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1621273036622</updated>
+    </task>
+    <task id="LOCAL-00033" summary="adding room description information">
+      <created>1621281524169</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1621281524169</updated>
+    </task>
+    <task id="LOCAL-00034" summary="adding info to room description and items in room">
+      <created>1621281539059</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1621281539059</updated>
+    </task>
+    <task id="LOCAL-00035" summary="adding info to room description and items in room">
+      <created>1621281553871</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1621281553871</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="first commit" />
-    <MESSAGE value="shivacavern update" />
-    <MESSAGE value="updating directories, and adding first mobs" />
-    <MESSAGE value="adding more stuff" />
-    <MESSAGE value="adding wandering ethereal marauder description and details" />
-    <MESSAGE value="make this guy walk around" />
-    <MESSAGE value="adding monstrous centipede here." />
     <MESSAGE value="making this guy aggro" />
     <MESSAGE value="added description for spider" />
     <MESSAGE value="adding darkmantle description and details" />
@@ -240,17 +321,34 @@
     <MESSAGE value="adding the shrieker mushroom!" />
     <MESSAGE value="changing shivarooms name to shivaroom&#10;adding light definition for all rooms" />
     <MESSAGE value="adding pdfs of the maps" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="adding krenshar&#10;adding up to room 20&#10;descriptions still need to happen" />
+    <MESSAGE value="adding small and large spiders&#10;updating descriptions for all 3 of them" />
+    <MESSAGE value="adding the next 10 rooms." />
+    <MESSAGE value="adding small monstrous centipede" />
+    <MESSAGE value="change bite comment for these two" />
+    <MESSAGE value="updating most anclude's to #include statements&#10;adding next 10 20 rooms" />
+    <MESSAGE value="removing redundant long descriptions" />
+    <MESSAGE value="updating all short and long descriptions for now" />
+    <MESSAGE value="adding items to room4" />
+    <MESSAGE value="adding items and description to room 5" />
+    <MESSAGE value="adding items and description to room 7" />
+    <MESSAGE value="adding room description information" />
+    <MESSAGE value="adding info to room description and items in room" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding info to room description and items in room" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="114" key="#Project_Structure" timestamp="1621204048872">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="#Project_Structure/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621204048872" />
-    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1621216394877">
+    <state x="679" y="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621281183921">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621216394877" />
+    <state x="679" y="406" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621281183921" />
+    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1621281553301">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621281553301" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1621204817903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -259,17 +357,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="420" y="172" width="1418" height="861" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621215994990" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1621215179704">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1621272716044">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621215179704" />
-    <state x="666" y="96" width="587" height="888" key="find.popup" timestamp="1621214485011">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621272716044" />
+    <state x="666" y="96" width="587" height="888" key="find.popup" timestamp="1621271338373">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="666" y="96" width="587" height="888" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621214485011" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1621214696705">
+    <state x="666" y="96" width="587" height="888" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621271338373" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1621281101992">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621214696705" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621281101992" />
   </component>
 </project>

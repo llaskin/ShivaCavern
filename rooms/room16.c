@@ -9,14 +9,17 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("A dark room");
-    set_day_long("The room has stalagtites and stalagmites "
-    "in the floor and ceilings.");
+    set_day_long("This gargantuan room has a bright fire "
+    "burning in the middle.  A ruined siege weapon sits in "
+    "the southeast corner of the room.  A sour odor fills "
+    "the center of the room.");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+    	({"siege weapon"}): "This is a destroyed siege weapon"
     ]));
 
     set_properties(([
-	"light" : SHIVA_LIGHT,
+	"light" : SHIVA_LIGHT+2,
 	"night light" : 0,
     ]));
     set_exits(([
@@ -26,4 +29,3 @@ void create() {
     "south2" : SHIVAROOM + "room21",
     ]));
 }
-//A ruined siege weapon sits in the south-east corner of the room, and a sour odor fills the center of the room

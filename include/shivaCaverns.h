@@ -18,4 +18,9 @@
 #define SHIVA_CHALLENGE_LEVEL5 140
 #define SHIVA_CHALLENGE_CHARISMA1 200
 #define SHIVA_LIGHT 1
+#define SHIVA_ROOM_SHORT1 "A dark room"
+#define SHIVA_ROOM_SHORT2 "A filthy, dark room"
+#define SHIVA_ROOM_SHORT3 "A gloomy cavern"
+
+
 #endif

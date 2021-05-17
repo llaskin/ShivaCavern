@@ -10,9 +10,11 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalagtites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  The walls are covered in "
+    "blood.");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+    	({"blood", "walls"}) : "The blood scrawled on the walls reads \"ran out of arrows\".",
     ]));
 
     set_properties(([
@@ -28,4 +30,6 @@ void create() {
     "south1" : SHIVAROOM + "room28",
     ]));
 }
-//Someone has scrawled "Ran out of arrows" in blood on the south wall, and a charred wooden shield lies in the south-west corner of the room
+void reset() {
+    if(!present("shield"))
+	new(SHIVA_ARMOUR + "charredWoodenShield")->move(this_object());
