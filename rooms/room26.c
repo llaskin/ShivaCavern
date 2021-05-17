@@ -1,8 +1,8 @@
 // by Lord
 // room, file=filename    
 
-#include <std.h>
-#include <shivaCaverns.h>
+anclude <std.h>
+anclude <shivaCaverns.h>
 
 inherit ROOM;
 
@@ -23,12 +23,8 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "room7",
-	"west" : SHIVAROOM + "room6",
-	"east" : SHIVAROOM + "room8",
-	"east2" : SHIVAROOM + "room13",
-	"south" : SHIVAROOM + "room21",
-	"south3" : SHIVAROOM + "room22",
+	"north" : SHIVAROOM + "room23",
+	"west" : SHIVAROOM + "room25",
     ]));
     }
     void reset() {
@@ -47,5 +43,9 @@ void create() {
 	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
 	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
 	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
+	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
+	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
+	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
+
 }
-//Someone has scrawled "They ate Borgga" in dwarvish runes on the west wall, and an unidentifiable odor fills the room
+//A mural of ancient mythology covers the ceiling, and a pile of bent copper coins lies in the east side of the room
