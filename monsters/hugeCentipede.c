@@ -1,6 +1,6 @@
 // Lord
 // Monster details
-
+//https://forgottenrealms.fandom.com/wiki/Monstrous_centipede
 #include <std.h>
 #include <shivaCaverns.h>
 
@@ -14,7 +14,7 @@ void create() {
     set_id(({"centipede", "monstrous centipede", "huge monstrous centipede"}));
     set_level(SHIVA_BASELEVEL);
     set_race("centipede");
-    set_body_type("human"); //TODO: Shoudl this be some sort of bug body type?
+    set_body_type("arachnid"); //TODO: Shoudl this be some sort of bug body type?
     set_gender("male");
 }
 //Huge monstrous centipede: CR 2; Huge vermin; HD 6d8+6; hp 33; Init +2; Spd 40 ft. (8 squares), climb 40 ft.;
