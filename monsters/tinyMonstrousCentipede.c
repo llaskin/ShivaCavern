@@ -19,5 +19,5 @@ void create() {
     set_body_type("insectoid");
     set_gender("male");
     set_aggressive(SHIVA_CHALLENGE_CHARISMA1);
-    //TODO: Make him have a poisonous bite
+    //TODO: Make him have a bite
 }
