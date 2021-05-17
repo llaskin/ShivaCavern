@@ -20,8 +20,9 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"direction" : SHIVAROOM + "name",
-	"direction2" : SHIVAROOM + "name2",
+	"east" : SHIVAROOM + "room38",
+	"southeast" : SHIVAROOM + "room44",
+	"south" : SHIVAROOM + "room47",
     ]));
 }
 void reset() {

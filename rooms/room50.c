@@ -20,10 +20,10 @@ void create() {
     ]));
     set_exits(([
 	"north" : SHIVAROOM + "room36",
-	"west1" : SHIVAROOM + "room48",
-	"west2" : SHIVAROOM + "room55",
-	"east1" : SHIVAROOM + "room49",
-	"east2" : SHIVAROOM + "room57",
+	"west" : SHIVAROOM + "room48",
+	"southwest" : SHIVAROOM + "room55",
+	"northeast" : SHIVAROOM + "room49",
+	"southeast" : SHIVAROOM + "room57",
     ]));
 }
 //A group of draconic faces have been carved into the west wall, and someone has scrawled "Beware the basilisk" on the north wall
