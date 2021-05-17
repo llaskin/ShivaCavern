@@ -9,7 +9,7 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("short description");
-    set_long("night long description");
+    set_long("day long description");
     set_items(([
 	"item1" : "desc1",
 	"item2" : "desc2",
@@ -23,13 +23,7 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "name",
-	"east" : SHIVAROOM + "name2",
-    "south" : SHIVAROOM + "name",
+	"west" : SHIVAROOM + "room46",
+	"east" : SHIVAROOM + "room43",
     ]));
-    }
-    void reset() {
-    if(!present("krenshar"))
-	new(SHIVA_MONSTERS + "krenshar")->move(this_object());
-
 }

@@ -1,8 +1,8 @@
 // by Lord
 // room, file=filename    
 
-anclude <std.h>
-anclude <shivaCaverns.h>
+#include <std.h>
+#include <shivaCaverns.h>
 
 inherit ROOM;
 

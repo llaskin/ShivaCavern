@@ -23,16 +23,17 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "room9",
-    "east" : SHIVAROOM + "room30",
+	"west" : SHIVAROOM + "room41",
     ]));
     }
     void reset() {
     if(!present("tinyMonstrousCentipede"))
 	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
-    new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
-    new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
-    new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
-    new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
+	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
+	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
+	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
+	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
+	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
+	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
 }
-//The floor is covered in square tiles, alternating white and black, and knocking fills the room
+//A tile labyrinth covers the floor, and someone has scrawled "Zivko fell here" on the west wall

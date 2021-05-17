@@ -1,15 +1,15 @@
 // by Lord
 // room, file=filename    
 
-#include <std.h>
-#include <shivaCaverns.h>
+anclude <std.h>
+anclude <shivaCaverns.h>
 
 inherit ROOM;
 
 void create() {
 ::create();
     set_short("short description");
-    set_long("night long description");
+    set_long("day long description");
     set_items(([
 	"item1" : "desc1",
 	"item2" : "desc2",
@@ -23,13 +23,11 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "name",
-	"east" : SHIVAROOM + "name2",
-    "south" : SHIVAROOM + "name",
+	"north" : SHIVAROOM + "room36",
+	"west1" : SHIVAROOM + "room48",
+	"west2" : SHIVAROOM + "room55",
+	"east1" : SHIVAROOM + "room49",
+	"east2" : SHIVAROOM + "room57",
     ]));
-    }
-    void reset() {
-    if(!present("krenshar"))
-	new(SHIVA_MONSTERS + "krenshar")->move(this_object());
-
 }
+//A group of draconic faces have been carved into the west wall, and someone has scrawled "Beware the basilisk" on the north wall

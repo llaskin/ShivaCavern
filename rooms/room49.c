@@ -1,8 +1,8 @@
 // by Lord
 // room, file=filename    
 
-#include <std.h>
-#include <shivaCaverns.h>
+anclude <std.h>
+anclude <shivaCaverns.h>
 
 inherit ROOM;
 
@@ -23,15 +23,15 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north1" : SHIVAROOM + "room20",
-	"north2" : SHIVAROOM + "room21",
-	"west1" : SHIVAROOM + "room27",
-	"west2" : SHIVAROOM + "room41",
-	"east" : SHIVAROOM + "room29",
+	"north" : SHIVAROOM + "room41",
+	"west1" : SHIVAROOM + "room36",
+	"west2" : SHIVAROOM + "room50",
+	"south1" : SHIVAROOM + "room57",
+	"south2" : SHIVAROOM + "room58",
     ]));
     }
     void reset() {
     if(!present("mediumMonstrousSpider"))
 	new(SHIVA_MONSTERS + "mediumMonstrousSpider")->move(this_object());
 
-}//Someone has scrawled "Praise Asar the Sorceror" on the south wall, and sporadic knocking can be faintly heard near the south wall
+}

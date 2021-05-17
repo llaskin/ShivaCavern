@@ -23,15 +23,16 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north1" : SHIVAROOM + "room20",
-	"north2" : SHIVAROOM + "room21",
-	"west1" : SHIVAROOM + "room27",
-	"west2" : SHIVAROOM + "room41",
-	"east" : SHIVAROOM + "room29",
+	"north" : SHIVAROOM + "room27",
+	"west" : SHIVAROOM + "room36",
+	"east1" : SHIVAROOM + "room28",
+	"east2" : SHIVAROOM + "room45",
+	"south" : SHIVAROOM + "room49",
+
     ]));
     }
     void reset() {
-    if(!present("mediumMonstrousSpider"))
-	new(SHIVA_MONSTERS + "mediumMonstrousSpider")->move(this_object());
+    if(!present("shrieker"))
+	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
 
-}//Someone has scrawled "Praise Asar the Sorceror" on the south wall, and sporadic knocking can be faintly heard near the south wall
+}

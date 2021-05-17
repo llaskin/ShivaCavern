@@ -9,7 +9,7 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("short description");
-    set_long("night long description");
+    set_long("day long description");
     set_items(([
 	"item1" : "desc1",
 	"item2" : "desc2",
@@ -23,13 +23,9 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "name",
-	"east" : SHIVAROOM + "name2",
-    "south" : SHIVAROOM + "name",
+	"west1" : SHIVAROOM + "room32",
+	"west2" : SHIVAROOM + "room40",
+	"south" : SHIVAROOM + "room48",
     ]));
-    }
-    void reset() {
-    if(!present("krenshar"))
-	new(SHIVA_MONSTERS + "krenshar")->move(this_object());
-
 }
+//A tile mosaic of ancient mythology covers the floor, and someone has scrawled "Masym died here" on the west wall

@@ -9,7 +9,7 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("short description");
-    set_long("night long description");
+    set_long("day long description");
     set_items(([
 	"item1" : "desc1",
 	"item2" : "desc2",
@@ -23,13 +23,11 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "name",
-	"east" : SHIVAROOM + "name2",
-    "south" : SHIVAROOM + "name",
-    ]));
-    }
-    void reset() {
-    if(!present("krenshar"))
-	new(SHIVA_MONSTERS + "krenshar")->move(this_object());
-
+	"south" : SHIVAROOM + "room40",
+	]));
 }
+void reset() {
+    if(!present("darkmantle"))
+	new(SHIVA_MONSTERS + "darkmantle")->move(this_object());
+}
+//Numerous pillars line the east wall, and a crater has been blasted into the floor in the east side of the room

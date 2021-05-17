@@ -23,15 +23,14 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north1" : SHIVAROOM + "room20",
-	"north2" : SHIVAROOM + "room21",
-	"west1" : SHIVAROOM + "room27",
-	"west2" : SHIVAROOM + "room41",
-	"east" : SHIVAROOM + "room29",
+	"north1" : SHIVAROOM + "room34",
+	"north2" : SHIVAROOM + "room30",
+    "west" : SHIVAROOM + "room42",
+	"south" : SHIVAROOM + "room54",
     ]));
     }
     void reset() {
-    if(!present("mediumMonstrousSpider"))
-	new(SHIVA_MONSTERS + "mediumMonstrousSpider")->move(this_object());
+    if(!present("krenshar"))
+	new(SHIVA_MONSTERS + "krenshar")->move(this_object());
 
-}//Someone has scrawled "Praise Asar the Sorceror" on the south wall, and sporadic knocking can be faintly heard near the south wall
+}//A magical altar of a goddess of thieves in the south-west corner of the room causes unease in any lawful creature within 30 feet, and a pile of spoiled meat lies in the center of the room
