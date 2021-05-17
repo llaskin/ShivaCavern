@@ -1,18 +1,25 @@
 // Lord
 // Medium Monstrous Spider
+//https://www.realmshelps.net/monsters/block/Monstrous_Spider,_Medium
 
- <std.h>
+#include <std.h>
+#include <shivaCaverns.h>
+
 inherit MONSTER;
-int level = 120;//SET SOME NUMBER HERE
+
 void create() {
 ::create();
     set_name("Medium Monstrous Spider");
-    set_short("monstershort");
-    set_long("monsterlong"); //TODO: Create Description
+    set_short("Monstrous Spider");
+    set_long("This medium sized spider will often wait in"
+    "its web, then slowly lower itself down silently on "
+    "silk strands and leap onto passing beneath them.  "
+    "Their webs are extremely strong and can support many"
+    "times their body weight.");
     set_id(({"spider", "monstrous spider", "medium spider", "medium monstrous spider"}));
-    set_level(level);
+    set_level(SHIVA_BASELEVEL);
     set_race("spider");
-    set_body_type("spider");
+    set_body_type("arachnid");
     set_gender("male");
 }
 ////Medium monstrous spider: CR 1; Medium vermin; HD 2d8+2; hp
