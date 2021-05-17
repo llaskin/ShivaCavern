@@ -10,7 +10,9 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalagtites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  The floor is covered in "
+    "square tiles which alternate beween black and white.");
+    set_listen("default", "A knocking sound fills the room");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
     ]));
@@ -32,4 +34,3 @@ void create() {
     new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
     new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
 }
-//The floor is covered in square tiles, alternating white and black, and knocking fills the room

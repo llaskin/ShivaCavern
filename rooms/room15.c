@@ -11,8 +11,8 @@ void create() {
     set_short("A dark room");
     set_day_long("The room has stalagtites and stalagmites "
     "in the floor and ceilings.  There is writing on the "
-    "north and west walls.  The sound of chimes can be "
-    "heard in the east side of the room");
+    "north and west walls.");
+    set_sound("Chimes can be heard coming from the east")
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
     	({"walls", "north wall", "west wall"}) : "Arcane runes appear on the wall here.  They have a small glow to them",

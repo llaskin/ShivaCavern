@@ -13,6 +13,7 @@ void create() {
     "in the floor and ceilings.  A narrow ledge runs along "
     "the south and west walls.  A pile of rotten fruit lies"
     " on the south side of the room.");
+    set_smell("A rotten smell permeates the room");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
     	"fruit" : "This is a pile of rotten fruit",
