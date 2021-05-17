@@ -15,7 +15,7 @@ void create() {
     "that resembles food, biting with their jaws and "
     "injecting their poison.");
     set_id(({"centipede", "monstrous centipede", "huge monstrous centipede"}));
-    set_level(SHIVA_BASELEVEL);
+    set_level(SHIVA_CHALLENGE_LEVEL4);
     set_race("centipede");
     set_body_type("arachnid"); //TODO: Shoudl this be some sort of bug body type?
     set_gender("male");

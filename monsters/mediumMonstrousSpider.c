@@ -17,7 +17,7 @@ void create() {
     "Their webs are extremely strong and can support many"
     "times their body weight.");
     set_id(({"spider", "monstrous spider", "medium spider", "medium monstrous spider"}));
-    set_level(SHIVA_BASELEVEL);
+    set_level(SHIVA_CHALLENGE_LEVEL2);
     set_race("spider");
     set_body_type("arachnid");
     set_gender("male");
