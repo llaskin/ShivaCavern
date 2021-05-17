@@ -1,7 +1,7 @@
 #ifndef __SHIVA_H__
 #define __SHIVA_H__
 #define SHIVA_BASE      "/rooms/lord/shivacavern/"
-#define SHIVA_ROOMS     SHIVA_BASE "rooms/"
+#define SHIVA_ROOM     SHIVA_BASE "rooms/"
 #define SHIVA_BASEROOMS SHIVA_BASE "baserooms/"
 #define SHIVA_WEAPONS   SHIVA_BASE "weapons/"
 #define SHIVA_ARMOUR    SHIVA_BASE "armour/"
@@ -17,4 +17,5 @@
 #define SHIVA_CHALLENGE_LEVEL4 130
 #define SHIVA_CHALLENGE_LEVEL5 140
 #define SHIVA_CHALLENGE_CHARISMA1 200
+#define SHIVA_LIGHT 1
 #endif
