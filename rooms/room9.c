@@ -10,9 +10,14 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalagtites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  Someone has scrawled "
+    "something on the west wall.  An unidentifiable odor "
+    "fills the room"
+    );
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+    	"west wall" : "There is an inscription here: \"They"
+    	"ate Borgga\""
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
@@ -44,4 +49,3 @@ void create() {
 	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
 	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
 }
-//Someone has scrawled "They ate Borgga" in dwarvish runes on the west wall, and an unidentifiable odor fills the room
