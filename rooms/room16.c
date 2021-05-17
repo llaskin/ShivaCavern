@@ -26,6 +26,6 @@ void create() {
 	"north" : SHIVAROOM + "room5",
 	"west" : SHIVAROOM + "room15",
     "south" : SHIVAROOM + "room20",
-    "south2" : SHIVAROOM + "room21",
+    "southeast" : SHIVAROOM + "room21",
     ]));
 }

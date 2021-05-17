@@ -27,7 +27,7 @@ void create() {
     ]));
     set_exits(([
 	"east" : SHIVAROOM + "room12",
-	"south" : SHIVAROOM + "room24",
+	"southwest" : SHIVAROOM + "room24",
     ]));
     }
     void reset() {

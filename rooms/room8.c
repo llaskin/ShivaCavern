@@ -19,9 +19,9 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"west" : SHIVAROOM + "room9",
-	//"west2" : SHIVAROOM + "name8", //This room is hidden.
-	 //TODO:deal with this
+	"west" : SHIVAROOM + "room7",
+	"southwest" : SHIVAROOM + "room9"
+	"south" : SHIVAROOM + "room14"
     ]));
     }
     void reset() {
