@@ -1,16 +1,15 @@
 // by Lord
-// room, file=room4.c
+// room, file=filename    
 
-#include <std.h>
-#include <shivaCaverns.h>
+ <std.h>
+ <shivaCaverns.h>
 
 inherit ROOM;
 
 void create() {
 ::create();
     set_short("short description");
-    set_day_long("day long description");
-    set_night_long("night long description");
+    set_long("night long description");
     set_items(([
 	"item1" : "desc1",
 	"item2" : "desc2",
@@ -24,7 +23,13 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"west" : SHIVA_ROOM + "room3.c",
+	"west" : SHIVAROOM + "room9",
+	//"west2" : SHIVAROOM + "name8", //This room is hidden.
+	 //TODO:deal with this
     ]));
+    }
+    void reset() {
+    if(!present("shrieker"))
+	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
+
 }
-//A rope ascends to a catwalk hanging between the north and south walls, and a simple wooden table and lantern sit in the north-west corner of the room

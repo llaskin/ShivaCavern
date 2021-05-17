@@ -20,12 +20,12 @@ void create() {
 	({"item7", "item8"}) : "desc5",
     ]));
     set_properties(([
-	"light" : 1,
+	"light" : SHIVA_LIGHT,
 	"night light" : 0,
     ]));
     set_exits(([
-	"west" : "shivacavern/rooms/room2.c",
-	"east" : "shivacavern/rooms/room4.c",
+	"west" : SHIVA_ROOM + "room2.c",
+	"east" : SHIVA_ROOM + "room4.c",
     ]));
     }
     void reset() {
