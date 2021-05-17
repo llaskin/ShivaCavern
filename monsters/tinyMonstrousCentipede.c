@@ -18,6 +18,6 @@ void create() {
     set_race("centipede");
     set_body_type("insectoid");
     set_gender("male");
+    set_aggressive(SHIVA_CHALLENGE_CHARISMA1);
     //TODO: Make him have a poisonous bite
-    //TODO: Make Aggro till very high charisma
 }
