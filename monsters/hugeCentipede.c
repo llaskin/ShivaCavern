@@ -1,6 +1,7 @@
 // Lord
-// Monster details
-//https://forgottenrealms.fandom.com/wiki/Monstrous_centipede
+// Huge monstrous centipede
+//https://www.dandwiki.com/wiki/SRD:Huge_Monstrous_Centipede
+
 #include <std.h>
 #include <shivaCaverns.h>
 
@@ -10,13 +11,16 @@ void create() {
 ::create();
     set_name("Huge Monstrous Centipede");
     set_short("Huge Monstrous Centipede");
-    set_long("monsterlong");
+    set_long("Monstrous centipedes tend to attack anything "
+    "that resembles food, biting with their jaws and "
+    "injecting their poison.");
     set_id(({"centipede", "monstrous centipede", "huge monstrous centipede"}));
     set_level(SHIVA_BASELEVEL);
     set_race("centipede");
     set_body_type("arachnid"); //TODO: Shoudl this be some sort of bug body type?
     set_gender("male");
 }
+//TODO: give them a poisonous bite
 //Huge monstrous centipede: CR 2; Huge vermin; HD 6d8+6; hp 33; Init +2; Spd 40 ft. (8 squares), climb 40 ft.;
 //AC 16 (-2 size, +2 dex, +6 natural), touch 10, flat-footed 14; Base Atk +4; Grp +15; Atk +5 melee
 //(2d6+4 plus poison, bite); Full Atk +5 melee (2d6+4 plus poison, bite); Space/Reach 15 ft./10 ft.; SA Poison;
