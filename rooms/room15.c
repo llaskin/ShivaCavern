@@ -1,8 +1,8 @@
 // by Lord
-// room, file=room6
+// room, file=filename    
 
 #include <std.h>
-#include  <shivaCaverns.h>
+#include <shivaCaverns.h>
 
 inherit ROOM;
 
@@ -23,12 +23,14 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"east" : SHIVA_ROOM + "room9.c",
-	"south" : SHIVA_ROOM + "room17.c",
+	"east" : SHIVAROOM + "room16",
+	"south" : SHIVAROOM + "room19",
+	"south2" : SHIVAROOM + "room20",
     ]));
     }
     void reset() {
-    if(!present("etherealMarauder"))
-	new(SHIVA_MONSTERS + "etherealMarauder")->move(this_object());
+    if(!present("shrieker"))
+	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
 
 }
+//The north and west walls have been engraved with arcane runes, and the sound of chimes can be heard in the east side of the room

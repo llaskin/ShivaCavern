@@ -1,8 +1,8 @@
 // by Lord
-// room, file=filename    
+// room, file=room8
 
- <std.h>
- <shivaCaverns.h>
+#include <std.h>
+#include <shivaCaverns.h>
 
 inherit ROOM;
 
@@ -33,3 +33,6 @@ void create() {
 	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
 
 }
+//
+//Hidden (Search DC 20) Locked Simple Wooden Chest (Open Lock DC 20, break DC 15; hard 5, 10 hp)
+//2000 cp; hoard total 20 gp

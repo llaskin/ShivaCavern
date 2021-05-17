@@ -1,8 +1,8 @@
 // by Lord
 // room, file=filename    
 
- <std.h>
- <shivaCaverns.h>
+#include <std.h>
+#include <shivaCaverns.h>
 
 inherit ROOM;
 
@@ -36,3 +36,4 @@ void create() {
 	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
 	//TODO: add 12 of these bad boys
 }
+//Someone has scrawled "They ate Borgga" in dwarvish runes on the west wall, and an unidentifiable odor fills the room

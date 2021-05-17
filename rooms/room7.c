@@ -1,8 +1,8 @@
 // by Lord
 // room, file=filename    
 
- <std.h>
- <shivaCaverns.h>
+#include <std.h>
+#include <shivaCaverns.h>
 
 inherit ROOM;
 
@@ -27,3 +27,4 @@ void create() {
 	"south" : SHIVA_ROOM + "room9.c",
     ]));
 }
+//The room has a high domed ceiling, and an iron sarcophagus sits in the north-east corner of the room

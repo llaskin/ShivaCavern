@@ -1,8 +1,8 @@
 // by Lord
-// room, file=room6
+// room, file=room11.c
 
 #include <std.h>
-#include  <shivaCaverns.h>
+#include <shivaCaverns.h>
 
 inherit ROOM;
 
@@ -23,12 +23,13 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"east" : SHIVA_ROOM + "room9.c",
-	"south" : SHIVA_ROOM + "room17.c",
+	"east" : SHIVAROOM + "room12",
+	"south" : SHIVAROOM + "room24",
     ]));
     }
     void reset() {
-    if(!present("etherealMarauder"))
-	new(SHIVA_MONSTERS + "etherealMarauder")->move(this_object());
+    if(!present("shrieker"))
+	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
 
 }
+//A narrow ledge runs along the south and west walls, and a pile of rotten fruit lies in the south side of the room

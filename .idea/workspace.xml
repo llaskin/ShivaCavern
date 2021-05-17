@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd13798b-3226-4b3b-abc5-c911d97b8ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Notes/body_types.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/shivaCaverns.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monsters/krenshar.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room10.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room11.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room12.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room13.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room14.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room15.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room16.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room17.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room18.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room19.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room20.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monsters/hugeCentipede.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/hugeCentipede.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monsters/mediumMonstrousSpider.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/mediumMonstrousSpider.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room5.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room5.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room6.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room6.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room7.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room7.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room8.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room8.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room9.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room9.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="MerenthaMobRoom" />
         <option value="MerenthaMob" />
+        <option value="MerenthaMobRoom" />
         <option value="MerenthaRoom" />
       </list>
     </option>
@@ -38,11 +49,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/monsters" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Leo Laskin\IdeaProjects\CavernsOfShiva\monsters" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,7 +104,119 @@
       <option name="project" value="LOCAL" />
       <updated>1621206229778</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding more stuff">
+      <created>1621208655619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621208655619</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding wandering ethereal marauder description and details">
+      <created>1621213043331</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621213043331</updated>
+    </task>
+    <task id="LOCAL-00008" summary="make this guy walk around">
+      <created>1621213287838</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1621213287838</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adding monstrous centipede here.">
+      <created>1621213328032</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621213328032</updated>
+    </task>
+    <task id="LOCAL-00010" summary="making this guy aggro">
+      <created>1621213389152</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621213389152</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added description for spider">
+      <created>1621213533283</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621213533283</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding darkmantle description and details">
+      <created>1621213725477</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621213725477</updated>
+    </task>
+    <task id="LOCAL-00013" summary="adding description to centipede">
+      <created>1621213801638</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621213801638</updated>
+    </task>
+    <task id="LOCAL-00014" summary="changing some levels">
+      <created>1621213850618</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621213850618</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding challenge levels">
+      <created>1621213859548</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621213859548</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updating include calls">
+      <created>1621213916465</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1621213916465</updated>
+    </task>
+    <task id="LOCAL-00017" summary="updating marauders and adding a non-wandering marauder">
+      <created>1621214001535</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1621214001535</updated>
+    </task>
+    <task id="LOCAL-00018" summary="adding a few rooms&#10;Updating how we were calling some monsters">
+      <created>1621215144252</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1621215144252</updated>
+    </task>
+    <task id="LOCAL-00019" summary="adding the shrieker mushroom!">
+      <created>1621215156144</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1621215156144</updated>
+    </task>
+    <task id="LOCAL-00020" summary="changing shivarooms name to shivaroom&#10;adding light definition for all rooms">
+      <created>1621215178412</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1621215178412</updated>
+    </task>
+    <task id="LOCAL-00021" summary="adding pdfs of the maps">
+      <created>1621215291470</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1621215291470</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -97,28 +225,51 @@
     <MESSAGE value="shivacavern update" />
     <MESSAGE value="updating directories, and adding first mobs" />
     <MESSAGE value="adding more stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding more stuff" />
+    <MESSAGE value="adding wandering ethereal marauder description and details" />
+    <MESSAGE value="make this guy walk around" />
+    <MESSAGE value="adding monstrous centipede here." />
+    <MESSAGE value="making this guy aggro" />
+    <MESSAGE value="added description for spider" />
+    <MESSAGE value="adding darkmantle description and details" />
+    <MESSAGE value="adding description to centipede" />
+    <MESSAGE value="changing some levels" />
+    <MESSAGE value="adding challenge levels" />
+    <MESSAGE value="updating include calls" />
+    <MESSAGE value="updating marauders and adding a non-wandering marauder" />
+    <MESSAGE value="adding a few rooms&#10;Updating how we were calling some monsters" />
+    <MESSAGE value="adding the shrieker mushroom!" />
+    <MESSAGE value="changing shivarooms name to shivaroom&#10;adding light definition for all rooms" />
+    <MESSAGE value="adding pdfs of the maps" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="114" key="#Project_Structure" timestamp="1621204048872">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="#Project_Structure/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621204048872" />
-    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1621206229304">
+    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1621216394877">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621206229304" />
+    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621216394877" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1621204817903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621204817903" />
-    <state x="461" y="184" width="1418" height="861" key="SettingsEditor" timestamp="1621208402886">
+    <state x="420" y="172" width="1418" height="861" key="SettingsEditor" timestamp="1621215994990">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="184" width="1418" height="861" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621208402886" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1621206231637">
+    <state x="420" y="172" width="1418" height="861" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621215994990" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1621215179704">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621206231637" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621215179704" />
+    <state x="666" y="96" width="587" height="888" key="find.popup" timestamp="1621214485011">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="666" y="96" width="587" height="888" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621214485011" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1621214696705">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621214696705" />
   </component>
 </project>

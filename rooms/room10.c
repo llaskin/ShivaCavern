@@ -1,15 +1,16 @@
 // by Lord
-// room, file=room6
+// room, file=room10.c
 
 #include <std.h>
-#include  <shivaCaverns.h>
+#include <shivaCaverns.h>
 
 inherit ROOM;
 
 void create() {
 ::create();
     set_short("short description");
-    set_long("night long description");
+    set_day_long("day long description");
+    set_night_long("night long description");
     set_items(([
 	"item1" : "desc1",
 	"item2" : "desc2",
@@ -23,12 +24,11 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"east" : SHIVA_ROOM + "room9.c",
-	"south" : SHIVA_ROOM + "room17.c",
+	"north" : SHIVA_ROOM + "room1.c",
+	"south" : SHIVA_ROOM + "room24.c",
     ]));
     }
     void reset() {
-    if(!present("etherealMarauder"))
-	new(SHIVA_MONSTERS + "etherealMarauder")->move(this_object());
-
-}
+        if(!present("mediumMonstrousSpider"))
+    	new("shivacavern/monsters/mediumMonstrousSpider")->move(this_object());
+    }
