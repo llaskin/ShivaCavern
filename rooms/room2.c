@@ -1,7 +1,9 @@
 // by Lord
 // room, file=room2.c
 
- <std.h>
+#include <std.h>
+#include <shivaCaverns.h>
+
 inherit ROOM;
 
 void create() {

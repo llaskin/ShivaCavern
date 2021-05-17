@@ -1,7 +1,9 @@
 // by Lord
-// room, file=filename    
+// room, file=room3.c
 
- <std.h>
+#include <std.h>
+#include <shivaCaverns.h>
+
 inherit ROOM;
 
 void create() {
@@ -25,8 +27,8 @@ void create() {
 	"west" : "shivacavern/rooms/room2.c",
 	"east" : "shivacavern/rooms/room4.c",
     ]));
+    }
     void reset() {
         if(!present("mediumMonstrousSpider"))
     	new("shivacavern/monsters/mediumMonstrousSpider")->move(this_object());
     }
-}

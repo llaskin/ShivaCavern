@@ -3,6 +3,7 @@
 
 #include <std.h>
 #include <shivaCaverns.h>
+
 inherit ROOM;
 
 
@@ -29,8 +30,7 @@ void create() {
 }
     void reset() {
     if(!present("hugeCentipede"))
-	new(SHIVA_MONSTERS + "hugeCentipede")->move(this_object
-	());
+	new(SHIVA_MONSTERS + "hugeCentipede")->move(this_object());
 
 }
 //Several alcoves are cut into the east and west walls, and several pieces of rotting wood are scattered throughout the room
