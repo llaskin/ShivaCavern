@@ -23,7 +23,6 @@ void create() {
     set_body_type("elemental");  //TODO: Set body type to
                                 //something new?
     set_gender("male");
-    set_patrol(4,
-    	({"west", "west", "north", "east", "east", "south",})
-        );
+    set_moving(1);
+    set_speed(20);
 }
