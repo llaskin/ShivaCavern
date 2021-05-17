@@ -10,9 +10,14 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalagtites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  A narrow ledge runs along "
+    "the south and west walls.  A pile of rotten fruit lies"
+    " on the south side of the room.");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+    	"fruit" : "This is a pile of rotten fruit",
+    	"ledge" : "The ledge runs along the south and west"
+    	"walls"
     ]));
 
     set_properties(([
@@ -29,4 +34,3 @@ void create() {
 	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
 
 }
-//A narrow ledge runs along the south and west walls, and a pile of rotten fruit lies in the south side of the room
