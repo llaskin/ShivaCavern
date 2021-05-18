@@ -21,6 +21,8 @@
 #define SHIVA_ROOM_SHORT1 "A dark room"
 #define SHIVA_ROOM_SHORT2 "A filthy, dark room"
 #define SHIVA_ROOM_SHORT3 "A gloomy cavern"
-
+#define SHIVA_SPELL_CHANCE1 25
+#define SHIVA_SPELL_CHANCE2 33
+#define SHIVA_SPELL_CHANCE3 40
 
 #endif
