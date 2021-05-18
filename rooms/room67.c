@@ -9,7 +9,7 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("short description");
-    set_long("day long description");
+    set_long("night long description");
     set_items(([
 	"item1" : "desc1",
 	"item2" : "desc2",
@@ -23,8 +23,13 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"northwest" : SHIVAROOM + "room49",
-	"east" : SHIVAROOM + "room62",
-    "south" : SHIVAROOM + "room66",
+	"northeast" : SHIVAROOM + "room60",
+	"east" : SHIVAROOM + "room69",
+    "south" : SHIVAROOM + "room74",
     ]));
-} //within the mouth of a demonic face carved from stone
+    }
+    void reset() {
+    if(!present("darkmantle"))
+	new(SHIVA_MONSTERS + "darkmantle")->move(this_object());
+
+}

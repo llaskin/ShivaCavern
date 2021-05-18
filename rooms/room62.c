@@ -23,8 +23,10 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"northwest" : SHIVAROOM + "room49",
-	"east" : SHIVAROOM + "room62",
-    "south" : SHIVAROOM + "room66",
+	"north" : SHIVAROOM + "room56",
+	"west" : SHIVAROOM + "room58",
+	"southwest" : SHIVAROOM + "room66",
+	"east" : SHIVAROOM + "room59",
+	"south" : SHIVAROOM + "room71",
     ]));
-} //within the mouth of a demonic face carved from stone
+}

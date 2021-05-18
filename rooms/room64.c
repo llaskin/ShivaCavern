@@ -23,8 +23,10 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"northwest" : SHIVAROOM + "room49",
-	"east" : SHIVAROOM + "room62",
-    "south" : SHIVAROOM + "room66",
+	"west" : SHIVAROOM + "room63",
+	"northwest" : SHIVAROOM + "room55",
+	"east" : SHIVAROOM + "room65",
+	"south" : SHIVAROOM + "room76",
     ]));
-} //within the mouth of a demonic face carved from stone
+}
+//A set of demonic war masks hangs on the south wall, and a rusted axe lies in the south side of the room

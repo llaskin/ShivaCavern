@@ -9,7 +9,7 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("short description");
-    set_long("day long description");
+    set_long("night long description");
     set_items(([
 	"item1" : "desc1",
 	"item2" : "desc2",
@@ -23,8 +23,13 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"northwest" : SHIVAROOM + "room49",
-	"east" : SHIVAROOM + "room62",
-    "south" : SHIVAROOM + "room66",
+	"north" : SHIVAROOM + "room57",
+	"west" : SHIVAROOM + "room64",
     ]));
-} //within the mouth of a demonic face carved from stone
+    }
+    void reset() {
+    if(!present("shrieker"))
+	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
+
+}
+//A sloped pit lined with iron spikes lies in the north-east corner of the room, and someone has scrawled "Lightning comes before thunder" on the east wall

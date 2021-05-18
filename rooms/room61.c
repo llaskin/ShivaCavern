@@ -9,7 +9,7 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("short description");
-    set_long("day long description");
+    set_long("night long description");
     set_items(([
 	"item1" : "desc1",
 	"item2" : "desc2",
@@ -23,8 +23,14 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"northwest" : SHIVAROOM + "room49",
-	"east" : SHIVAROOM + "room62",
-    "south" : SHIVAROOM + "room66",
+	"north" : SHIVAROOM + "room52",
+	"northwest" : SHIVAROOM + "room60",
+	"southwest" : SHIVAROOM + "room70",
     ]));
-} //within the mouth of a demonic face carved from stone
+    }
+    void reset() {
+    if(!present("shrieker"))
+	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
+
+}
+//A magical mirror on the west wall answers questions with lies and falsehoods, and someone has scrawled "Lightning comes before thunder" on the north wall

@@ -1,5 +1,5 @@
 // by Lord
-// room, file=filename    
+// room, file=room69.c
 
 #include <std.h>
 #include <shivaCaverns.h>
@@ -23,8 +23,8 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "rooom51",
-	"west" : SHIVAROOM + "room62",
+	"west" : SHIVAROOM + "room67",
+    "east" : SHIVAROOM + "room70",
     ]));
     }
     void reset() {
@@ -32,3 +32,4 @@ void create() {
 	new(SHIVA_MONSTERS + "mediumMonstrousSpider")->move(this_object());
 
 }
+//A chute falls into the room from above, and someone has scrawled "The Lions of Naramunz killed a white dragon here" on the east wall
