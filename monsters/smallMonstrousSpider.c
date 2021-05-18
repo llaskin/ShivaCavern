@@ -22,5 +22,7 @@ void create() {
     set_body_type("arachnid");
     set_gender("male");
     set_aggressive(SHIVA_CHALLENGE_CHARISMA2);
+    set_spells(({"bite"}));
+    set_spell_chance(SHIVA_SPELL_CHANCE1);
 }
 //Give this guy a bite skill, no poison tho

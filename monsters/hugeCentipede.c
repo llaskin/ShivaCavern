@@ -19,6 +19,8 @@ void create() {
     set_race("centipede");
     set_body_type("arachnid"); //TODO: Shoudl this be some sort of bug body type?
     set_gender("male");
+    set_spells(({"rancid_bite"}));
+    set_spell_chance(SHIVA_SPELL_CHANCE3);
 }
 //TODO: give them a poisonous bite
 //Huge monstrous centipede: CR 2; Huge vermin; HD 6d8+6; hp 33; Init +2; Spd 40 ft. (8 squares), climb 40 ft.;

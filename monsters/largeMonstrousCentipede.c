@@ -20,5 +20,6 @@ void create() {
     set_body_type("insectoid");
     set_gender("male");
     set_aggressive(SHIVA_CHALLENGE_CHARISMA3);
-    //TODO: Make him have a bite with poison
+    set_spells(({"rancid_bite"}));
+    set_spell_chance(SHIVA_SPELL_CHANCE2);
 }
