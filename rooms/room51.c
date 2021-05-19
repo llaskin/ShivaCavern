@@ -9,15 +9,12 @@ inherit ROOM;
 
 void create() {
 ::create();
-    set_short("short description");
-    set_long("day long description");
+    set_short("A dark room");
+    set_day_long("The room has stalagtites and stalagmites "
+       "in the floor and ceilings. Several iron cages hang from "
+       "some of the stalagmites.");
     set_items(([
-	"item1" : "desc1",
-	"item2" : "desc2",
-	"item3" : "desc3",
-	({"item4", "item5", "item6"}):
-		"desc4",
-	({"item7", "item8"}) : "desc5",
+	"iron cages" : "These empty cages once looked like they housed prisoners",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,

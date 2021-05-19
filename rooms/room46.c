@@ -10,9 +10,11 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalagtites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  There is a tile mosaic on the floor"
+    "There is a set of stairs to a balcony on the north wall");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+    	({"mosaic"}) : "Geometric patterns cover the floor",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
@@ -22,6 +24,7 @@ void create() {
 	"east" : SHIVAROOM + "room42",
 	"southeast" : SHIVAROOM + "room51",
 	"south" : SHIVAROOM + "room56",
+	"stairs" : SHIVAROOM + "balcony46"
     ]));
     }
     void reset() {

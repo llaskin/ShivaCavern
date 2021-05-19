@@ -10,10 +10,12 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalagtites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  Someone has scrawled \"Praise "
+    "Asar the Sorceror\" on the south wall." );
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
     ]));
+    set_listen("default", "Sporadic knocking can be faintly heard from the south wall.")
 
     set_properties(([
 	"light" : SHIVA_LIGHT,

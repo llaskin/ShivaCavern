@@ -8,7 +8,7 @@ inherit ROOM;
 
 void create() {
 ::create();
-    set_short("short description");
+    set_short("A dark room");
     set_long("day long description");
     set_items(([
 	"item1" : "desc1",

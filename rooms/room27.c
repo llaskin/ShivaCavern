@@ -10,7 +10,9 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalagtites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  Someone has scrawled an "
+    "incomplete drawing of a dragon on the north wall.");
+    set_smell("default", "The scent of urine fills the room");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
     ]));
@@ -31,4 +33,3 @@ void create() {
 	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
 
 }
-//Someone has scrawled an incomplete drawing of a dragon on the north wall, and the scent of urine fills the east side of the room

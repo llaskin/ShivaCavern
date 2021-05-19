@@ -10,9 +10,12 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalagtites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  A magical mural is visible on the east wall"
+    "There seems to be writing in a corner of the room");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+        ({"wall", "mural", "magical mural", "east wall"}) : "The magical mural depicts your betrayal",
+        ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
     ]));
 
     set_properties(([
@@ -26,4 +29,4 @@ void create() {
 	"south" : SHIVAROOM + "room52",
     ]));
 }
-//A magical mural on the east wall depicts the betrayal of whomever views it, and someone has scrawled "The walls listen" on the east wall
+//Perhaps add something to the mural?  Perhaps a monster appears and attacks?  An assassin of some sort?

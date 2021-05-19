@@ -46,4 +46,4 @@ void create() {
 	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
 
 }
-//A mural of ancient mythology covers the ceiling, and a pile of bent copper coins lies in the east side of the room
+//a pile of bent copper coins lies in the east side of the room
