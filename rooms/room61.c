@@ -9,14 +9,13 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("A dark room");
-    set_long("night long description");
+    set_day_long("The room has stalagtites and stalagmites "
+    "in the floor and ceilings.  There is a mirror on the wall."
+    "There is some writing below the mirror.");
     set_items(([
-	"item1" : "desc1",
-	"item2" : "desc2",
-	"item3" : "desc3",
-	({"item4", "item5", "item6"}):
-		"desc4",
-	({"item7", "item8"}) : "desc5",
+	"writing" : "Someone has carved \"Remember you can fart while you pee.  "
+	"Sometimes lightning comes before thunder\" below the mirror",
+	"mirror" : "The mirror compliments you on your stylish dress",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
@@ -33,4 +32,4 @@ void create() {
 	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
 
 }
-//A magical mirror on the west wall answers questions with lies and falsehoods, and someone has scrawled "Lightning comes before thunder" on the north wall
+//

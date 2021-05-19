@@ -9,15 +9,15 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("A dark room");
-    set_long("night long description");
+    set_day_long("The room has stalagtites and stalagmites "
+    "in the floor and ceilings.  A sloped pit seems to be in the corner"
+    "There is some graffiti on the wall.");
     set_items(([
-	"item1" : "desc1",
-	"item2" : "desc2",
-	"item3" : "desc3",
-	({"item4", "item5", "item6"}):
-		"desc4",
-	({"item7", "item8"}) : "desc5",
+	"graffiti" : "Someone has carved \"Remember you can fart while you pee.  "
+	"Sometimes lightning comes before thunder\" below the mirror",
+	"pit" : "The pit is lined with iron spikes.  They look pointy",
     ]));
+
     set_properties(([
 	"light" : SHIVA_LIGHT,
 	"night light" : 0,
@@ -32,4 +32,3 @@ void create() {
 	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
 
 }
-//A sloped pit lined with iron spikes lies in the north-east corner of the room, and someone has scrawled "Lightning comes before thunder" on the east wall

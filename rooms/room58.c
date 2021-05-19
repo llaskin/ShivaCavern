@@ -9,14 +9,11 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("A dark room");
-    set_long("day long description");
+    set_day_long("The room has stalagtites and stalagmites "
+    "in the floor and ceilings.  There is a carving in one of"
+     "the walls");
     set_items(([
-	"item1" : "desc1",
-	"item2" : "desc2",
-	"item3" : "desc3",
-	({"item4", "item5", "item6"}):
-		"desc4",
-	({"item7", "item8"}) : "desc5",
+	"carving" : "A mouth of a demonic face jumps out from the stone",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
@@ -27,4 +24,4 @@ void create() {
 	"east" : SHIVAROOM + "room62",
     "south" : SHIVAROOM + "room66",
     ]));
-} //within the mouth of a demonic face carved from stone
+}

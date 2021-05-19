@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd13798b-3226-4b3b-abc5-c911d97b8ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rooms/balcony46.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weapons/rustedAxe.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room26.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room26.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room27.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room27.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room28.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room28.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room30.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room30.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room33.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room33.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room34.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room34.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room35.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room35.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room38.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room38.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room40.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room40.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room43.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room43.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room44.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room44.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room45.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room45.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room46.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room46.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room50.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room50.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room51.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room51.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room52.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room52.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rooms/room53.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room53.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rooms/room54.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room54.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rooms/room55.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room55.c" afterDir="false" />
@@ -68,7 +52,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/monsters" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/misc" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -76,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Leo Laskin\IdeaProjects\CavernsOfShiva\misc" />
       <recent name="C:\Users\Leo Laskin\IdeaProjects\CavernsOfShiva\monsters" />
     </key>
   </component>
@@ -410,12 +395,18 @@
       <option name="project" value="LOCAL" />
       <updated>1621437567340</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="added balcony to one room.&#10;Updated descriptions through room 52">
+      <created>1621438891558</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1621438891558</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding pdfs of the maps" />
     <MESSAGE value="adding krenshar&#10;adding up to room 20&#10;descriptions still need to happen" />
     <MESSAGE value="adding small and large spiders&#10;updating descriptions for all 3 of them" />
     <MESSAGE value="adding the next 10 rooms." />
@@ -440,7 +431,8 @@
     <MESSAGE value="added spell chances" />
     <MESSAGE value="added spell chances to monsters" />
     <MESSAGE value="adding bent coins" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding bent coins" />
+    <MESSAGE value="added balcony to one room.&#10;Updated descriptions through room 52" />
+    <option name="LAST_COMMIT_MESSAGE" value="added balcony to one room.&#10;Updated descriptions through room 52" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="114" key="#Project_Structure" timestamp="1621281758678">
@@ -451,10 +443,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="679" y="406" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621281183921" />
-    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1621437566778">
+    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1621438890459">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621437566778" />
+    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621438890459" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1621204817903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -463,10 +455,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="420" y="172" width="1418" height="861" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621284134781" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1621437569556">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1621438894242">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621437569556" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621438894242" />
     <state x="666" y="96" width="628" height="888" key="find.popup" timestamp="1621438548167">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

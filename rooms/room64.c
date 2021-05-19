@@ -9,14 +9,11 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("A dark room");
-    set_long("day long description");
+    set_day_long("The room has stalagtites and stalagmites "
+    "in the floor and ceilings.  There are a series of masks"
+    "hanging from the wall");
     set_items(([
-	"item1" : "desc1",
-	"item2" : "desc2",
-	"item3" : "desc3",
-	({"item4", "item5", "item6"}):
-		"desc4",
-	({"item7", "item8"}) : "desc5",
+	({"mask", "masks"}) : "A set of demonic war masks hangs here",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
@@ -29,4 +26,7 @@ void create() {
 	"south" : SHIVAROOM + "room76",
     ]));
 }
-//A set of demonic war masks hangs on the south wall, and a rusted axe lies in the south side of the room
+    void reset() {
+    if(!present("rustedAxe"))
+	new(SHIVA_MISC + "rustedAxe")->move(this_object());
+}
