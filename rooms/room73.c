@@ -1,8 +1,8 @@
 // by Lord
 // room, file=filename    
 
-#include <std.h>
-#include <shivaCaverns.h>
+anclude <std.h>
+anclude <shivaCaverns.h>
 
 inherit ROOM;
 
@@ -18,8 +18,7 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"east" : SHIVAROOM + "room55",
-	"south" : SHIVAROOM + "room68",
-	"southwest" : SHIVAROOM + "room75"
+	"west" : SHIVAROOM + "room72",
+	"south" : SHIVAROOM + "room79",
     ]));
 }

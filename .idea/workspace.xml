@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd13798b-3226-4b3b-abc5-c911d97b8ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/weapons/rustedAxe.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room71.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room72.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room73.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room74.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room75.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room76.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room77.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room78.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room79.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room80.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rooms/room53.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room53.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room54.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room54.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room55.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room55.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room56.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room56.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room57.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room57.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room58.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room58.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room59.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room59.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room60.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room60.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room61.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room61.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room62.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room62.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room63.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room63.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room64.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room64.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room65.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room65.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room66.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room66.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room67.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room67.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room68.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room68.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room69.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room69.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room70.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room70.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="MerenthaRoom" />
         <option value="MerenthaMob" />
         <option value="MerenthaMobRoom" />
+        <option value="MerenthaRoom" />
       </list>
     </option>
   </component>
@@ -56,7 +48,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -402,13 +394,25 @@
       <option name="project" value="LOCAL" />
       <updated>1621438891558</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="almost all rooms up to date">
+      <created>1621448012882</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1621448012885</updated>
+    </task>
+    <task id="LOCAL-00049" summary="remove invalid items from some rooms">
+      <created>1621448107104</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1621448107104</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding krenshar&#10;adding up to room 20&#10;descriptions still need to happen" />
-    <MESSAGE value="adding small and large spiders&#10;updating descriptions for all 3 of them" />
     <MESSAGE value="adding the next 10 rooms." />
     <MESSAGE value="adding small monstrous centipede" />
     <MESSAGE value="change bite comment for these two" />
@@ -432,7 +436,9 @@
     <MESSAGE value="added spell chances to monsters" />
     <MESSAGE value="adding bent coins" />
     <MESSAGE value="added balcony to one room.&#10;Updated descriptions through room 52" />
-    <option name="LAST_COMMIT_MESSAGE" value="added balcony to one room.&#10;Updated descriptions through room 52" />
+    <MESSAGE value="almost all rooms up to date" />
+    <MESSAGE value="remove invalid items from some rooms" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove invalid items from some rooms" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="114" key="#Project_Structure" timestamp="1621281758678">
@@ -443,26 +449,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="679" y="406" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621281183921" />
-    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1621438890459">
+    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1621448106596">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621438890459" />
+    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621448106596" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1621204817903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621204817903" />
-    <state x="420" y="172" width="1418" height="861" key="SettingsEditor" timestamp="1621284134781">
+    <state x="420" y="172" width="1418" height="861" key="SettingsEditor" timestamp="1621458755043">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="420" y="172" width="1418" height="861" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621284134781" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1621438894242">
+    <state x="420" y="172" width="1418" height="861" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621458755043" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1621448108333">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621438894242" />
-    <state x="666" y="96" width="628" height="888" key="find.popup" timestamp="1621438548167">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621448108333" />
+    <state x="559" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621459660268">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="666" y="96" width="628" height="888" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621438548167" />
+    <state x="559" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621459660268" />
+    <state x="1203" y="102" width="628" height="888" key="find.popup" timestamp="1621448089547">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1203" y="102" width="628" height="888" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621448089547" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1621285455697">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
