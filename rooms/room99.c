@@ -10,23 +10,18 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalagtites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  There is something scratched "
+    "into the floor.");
     set_items(([
-	"item1" : "desc1",
-	"item2" : "desc2",
-	"item3" : "desc3",
-	({"item4", "item5", "item6"}):
-		"desc4",
-	({"item7", "item8"}) : "desc5",
+	"floor" : "Someone has scrawled \"The cleric will betray you\"",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "room85",
-	"southwest" : SHIVAROOM + "room95",
-    "southeast" : SHIVAROOM + "room96",
+	"east" : SHIVAROOM + "room100",
+	"south" : SHIVAROOM + "room104",
     ]));
     }
     void reset() {
