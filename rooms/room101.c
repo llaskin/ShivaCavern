@@ -18,11 +18,11 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"west" : SHIVAROOM + "room99",
-	"south" : SHIVAROOM + "room104",
+	"west" : SHIVAROOM + "room98",
     ]));
     }
     void reset() {
-    if(!present("shrieker"))
-	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
-    }
+    if(!present("darkmantle"))
+	new(SHIVA_MONSTERS + "darkmantle")->move(this_object());
+
+}

@@ -12,17 +12,19 @@ void create() {
     set_day_long("The room has stalagtites and stalagmites "
     "in the floor and ceilings.");
     set_items(([
+	"item1" : "desc1",
+	"item2" : "desc2",
+	"item3" : "desc3",
+	({"item4", "item5", "item6"}):
+		"desc4",
+	({"item7", "item8"}) : "desc5",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
 	"night light" : 0,
     ]));
     set_exits(([
-	"west" : SHIVAROOM + "room99",
-	"south" : SHIVAROOM + "room104",
+	"north" : SHIVAROOM + "room93",
+	"west" : SHIVAROOM + "room104",
     ]));
-    }
-    void reset() {
-    if(!present("shrieker"))
-	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
-    }
+}

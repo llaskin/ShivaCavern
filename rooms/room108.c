@@ -10,19 +10,15 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalagtites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  Bones litter the floor.");
     set_items(([
+	"bones" : "Something seems to have been gnawing on these",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
 	"night light" : 0,
     ]));
     set_exits(([
-	"west" : SHIVAROOM + "room99",
-	"south" : SHIVAROOM + "room104",
-    ]));
-    }
-    void reset() {
-    if(!present("shrieker"))
-	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
-    }
+	"east" : SHIVAROOM + "room109",
+   ]));
+}

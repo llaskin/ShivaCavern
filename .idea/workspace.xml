@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd13798b-3226-4b3b-abc5-c911d97b8ffe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/armour/piercedBreastplate.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room81.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room82.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room83.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room84.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room85.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room86.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room87.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room88.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room89.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room90.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room91.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room92.c" afterDir="false" />
+    <list default="true" id="bd13798b-3226-4b3b-abc5-c911d97b8ffe" name="Default Changelist" comment="adding more rooms.  Adding pierced breastplate armour for one of the rooms.">
+      <change afterPath="$PROJECT_DIR$/rooms/room101.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room102.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room103.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room104.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room105.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room106.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room107.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room108.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room109.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room110.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room111.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rooms/room112.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armour/charredWoodenShield.c" beforeDir="false" afterPath="$PROJECT_DIR$/armour/charredWoodenShield.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/room79.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room79.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room100.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room100.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room99.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room99.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,20 +68,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621204034878</updated>
-    </task>
-    <task id="LOCAL-00002" summary="first commit">
-      <created>1621204866827</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1621204866827</updated>
-    </task>
-    <task id="LOCAL-00003" summary="shivacavern update">
-      <created>1621204940365</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1621204940365</updated>
     </task>
     <task id="LOCAL-00004" summary="updating directories, and adding first mobs">
       <created>1621205695217</created>
@@ -413,13 +398,25 @@
       <option name="project" value="LOCAL" />
       <updated>1621461729518</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="adding more rooms.  Adding pierced breastplate armour for one of the rooms.">
+      <created>1621555904703</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1621555904713</updated>
+    </task>
+    <task id="LOCAL-00052" summary="adding up to room 100">
+      <created>1621557788825</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1621557788826</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding small monstrous centipede" />
-    <MESSAGE value="change bite comment for these two" />
     <MESSAGE value="updating most anclude's to #include statements&#10;adding next 10 20 rooms" />
     <MESSAGE value="removing redundant long descriptions" />
     <MESSAGE value="updating all short and long descriptions for now" />
@@ -443,7 +440,9 @@
     <MESSAGE value="almost all rooms up to date" />
     <MESSAGE value="remove invalid items from some rooms" />
     <MESSAGE value="adding next 10 rooms" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding next 10 rooms" />
+    <MESSAGE value="adding more rooms.  Adding pierced breastplate armour for one of the rooms." />
+    <MESSAGE value="adding up to room 100" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding up to room 100" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="114" key="#Project_Structure" timestamp="1621281758678">
@@ -454,10 +453,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="679" y="406" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621281183921" />
-    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1621461728577">
+    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1621557788267">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621461728577" />
+    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621557788267" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1621204817903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -466,21 +465,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="420" y="172" width="1418" height="861" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621461808210" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1621461735365">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1621557811553">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621461735365" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621557811553" />
     <state x="559" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621459660268">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="559" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621459660268" />
-    <state x="1203" y="102" width="628" height="888" key="find.popup" timestamp="1621448089547">
+    <state x="1203" y="102" width="628" height="888" key="find.popup" timestamp="1622638007912">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1203" y="102" width="628" height="888" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621448089547" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1621285455697">
+    <state x="1203" y="102" width="628" height="888" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1622638007912" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1621556017742">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621285455697" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621556017742" />
   </component>
 </project>
