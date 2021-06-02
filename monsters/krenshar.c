@@ -2,8 +2,8 @@
 // Krenshar
 //https://forgottenrealms.fandom.com/wiki/Krenshar
 
-anclude <std.h>
-anclude <shivaCaverns.h>
+#include <std.h>
+#include <shivaCaverns.h>
 
 inherit MONSTER;
 
