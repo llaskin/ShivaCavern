@@ -21,9 +21,9 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "room44",
-	"northwest" : SHIVAROOM + "room47",
-	"south" : SHIVAROOM + "room61",
+	"north" : SHIVA_ROOM + "room44",
+	"northwest" : SHIVA_ROOM + "room47",
+	"south" : SHIVA_ROOM + "room61",
     ]));
 }
 //A group of monstrous faces have been carved into the north wall, and the ceiling is covered with cracks

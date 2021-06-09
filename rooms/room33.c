@@ -21,9 +21,9 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"west" : SHIVAROOM + "room32",
-	"southwest" : SHIVAROOM + "room40",
-	"south" : SHIVAROOM + "room48",
+	"west" : SHIVA_ROOM + "room32",
+	"southwest" : SHIVA_ROOM + "room40",
+	"south" : SHIVA_ROOM + "room48",
     ]));
 }
 //A tile mosaic of ancient mythology covers the floor, and someone has scrawled "Masym died here" on the west wall

@@ -17,9 +17,9 @@ void create() {
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "room25",
-	"west" : SHIVAROOM + "room22",
-	"southeast" : SHIVAROOM + "room43",
+	"north" : SHIVA_ROOM + "room25",
+	"west" : SHIVA_ROOM + "room22",
+	"southeast" : SHIVA_ROOM + "room43",
     ]));
     }
     void reset() {

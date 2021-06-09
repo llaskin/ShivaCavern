@@ -21,7 +21,7 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "room62",
+	"north" : SHIVA_ROOM + "room62",
     ]));
 }
 //A chute falls into the room from above, and someone

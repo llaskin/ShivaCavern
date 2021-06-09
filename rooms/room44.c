@@ -23,10 +23,10 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "room38",
-	"northwest" : SHIVAROOM + "room31",
-    "west" : SHIVAROOM + "room47",
-	"south" : SHIVAROOM + "room52",
+	"north" : SHIVA_ROOM + "room38",
+	"northwest" : SHIVA_ROOM + "room31",
+    "west" : SHIVA_ROOM + "room47",
+	"south" : SHIVA_ROOM + "room52",
     ]));
 }
 //Perhaps add something to the mural?  Perhaps a monster appears and attacks?  An assassin of some sort?

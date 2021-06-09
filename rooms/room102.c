@@ -20,8 +20,8 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"north" : SHIVAROOM + "room91",
-    "south" : SHIVAROOM + "room111",
+	"north" : SHIVA_ROOM + "room91",
+    "south" : SHIVA_ROOM + "room111",
     ]));
 }
 //Someone has scrawled "straight, straight, door, left"

@@ -1,6 +1,6 @@
 #ifndef __SHIVA_H__
 #define __SHIVA_H__
-#define SHIVA_BASE      "/rooms/lord/shivacavern/"
+#define SHIVA_BASE      "/rooms/lord/ShivaCavern/"
 #define SHIVA_ROOM     SHIVA_BASE "rooms/"
 #define SHIVA_BASEROOMS SHIVA_BASE "baserooms/"
 #define SHIVA_WEAPONS   SHIVA_BASE "weapons/"
