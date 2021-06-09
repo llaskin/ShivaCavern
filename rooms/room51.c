@@ -5,7 +5,7 @@
 #include <std.h>
 #include <shivaCaverns.h>
 
-inherit ROOM;
+inherit SHIVA_ROOM;
 
 void create() {
 ::create();

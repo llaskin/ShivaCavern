@@ -1,5 +1,5 @@
 #include <std.h>
-inherit OBJECT;
+inherit SHIVA_MISC;
 
 void create() {
 ::create();

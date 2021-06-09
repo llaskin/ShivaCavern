@@ -4,7 +4,7 @@
 #include <std.h>
 #include <shivaCaverns.h>
 
-inherit MONSTER;
+inherit SHIVA_MONSTERS;
 
 void create() {
 ::create();

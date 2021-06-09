@@ -1,7 +1,7 @@
 //Lord
 //Charred Wooden Shield
 #include <std.h>
-inherit ARMOUR;
+inherit SHIVA_ARMOUR;
 
 void create() {
 ::create();

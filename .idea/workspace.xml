@@ -1,22 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd13798b-3226-4b3b-abc5-c911d97b8ffe" name="Default Changelist" comment="adding more rooms.  Adding pierced breastplate armour for one of the rooms.">
-      <change afterPath="$PROJECT_DIR$/rooms/room101.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room102.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room103.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room104.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room105.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room106.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room107.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room108.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room109.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room110.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room111.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms/room112.c" afterDir="false" />
+    <list default="true" id="bd13798b-3226-4b3b-abc5-c911d97b8ffe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armour/charredWoodenShield.c" beforeDir="false" afterPath="$PROJECT_DIR$/armour/charredWoodenShield.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armour/piercedBreastplate.c" beforeDir="false" afterPath="$PROJECT_DIR$/armour/piercedBreastplate.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/bentCoins.c" beforeDir="false" afterPath="$PROJECT_DIR$/misc/bentCoins.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/darkmantle.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/darkmantle.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/etherealMarauder.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/etherealMarauder.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/hugeCentipede.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/hugeCentipede.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/krenshar.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/krenshar.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/largeMonstrousCentipede.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/largeMonstrousCentipede.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/largeMonstrousSpider.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/largeMonstrousSpider.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/mediumMonstrousSpider.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/mediumMonstrousSpider.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/shrieker.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/shrieker.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/smallMonstrousCentipede.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/smallMonstrousCentipede.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/smallMonstrousSpider.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/smallMonstrousSpider.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/tinyMonstrousCentipede.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/tinyMonstrousCentipede.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monsters/wanderingEtherealMarauder.c" beforeDir="false" afterPath="$PROJECT_DIR$/monsters/wanderingEtherealMarauder.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/balcony46.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/balcony46.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room1.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room10.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room10.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rooms/room100.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room100.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room101.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room101.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room102.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room102.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room103.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room103.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room104.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room104.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room106.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room106.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room108.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room108.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room109.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room109.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room11.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room11.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room111.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room111.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room112.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room112.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room12.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room12.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room13.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room13.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room14.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room14.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room15.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room15.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room16.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room16.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room17.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room17.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room18.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room18.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room19.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room19.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room2.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room20.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room20.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room21.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room21.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room22.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room22.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room23.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room23.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room24.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room24.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room25.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room25.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room26.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room26.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room27.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room27.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room28.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room28.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room29.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room29.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room3.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room30.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room30.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room31.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room31.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room32.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room32.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room33.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room33.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room34.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room34.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room35.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room35.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room36.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room36.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room37.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room37.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room38.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room38.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room39.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room39.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room4.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room4.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room40.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room40.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room41.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room41.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room42.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room42.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room43.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room43.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room44.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room44.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room45.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room45.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room46.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room46.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room47.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room47.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room48.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room48.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room49.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room49.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room5.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room5.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room50.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room50.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room51.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room51.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room52.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room52.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room53.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room53.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room54.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room54.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room55.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room55.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room56.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room56.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room57.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room57.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room58.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room58.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room59.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room59.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room6.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room6.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room60.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room60.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room61.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room61.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room62.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room62.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room63.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room63.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room64.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room64.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room65.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room65.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room66.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room66.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room67.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room67.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room68.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room68.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room69.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room69.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room7.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room7.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room70.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room70.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room71.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room71.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room72.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room72.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room73.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room73.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room74.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room74.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room75.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room75.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room76.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room76.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room77.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room77.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room78.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room78.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room79.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room79.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room8.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room8.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room81.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room81.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room82.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room82.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room83.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room83.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room84.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room84.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room85.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room85.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room86.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room86.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room87.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room87.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room88.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room88.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room89.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room89.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room9.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room9.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room90.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room90.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room91.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room91.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room92.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room92.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room93.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room93.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room94.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room94.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room95.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room95.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room96.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room96.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooms/room98.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room98.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rooms/room99.c" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/room99.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weapons/rustedAxe.c" beforeDir="false" afterPath="$PROJECT_DIR$/weapons/rustedAxe.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,20 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621204034878</updated>
-    </task>
-    <task id="LOCAL-00004" summary="updating directories, and adding first mobs">
-      <created>1621205695217</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1621205695217</updated>
-    </task>
-    <task id="LOCAL-00005" summary="adding more stuff">
-      <created>1621206229778</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1621206229778</updated>
     </task>
     <task id="LOCAL-00006" summary="adding more stuff">
       <created>1621208655619</created>
@@ -412,13 +508,25 @@
       <option name="project" value="LOCAL" />
       <updated>1621557788826</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="adding final rooms.">
+      <created>1622638236465</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1622638236466</updated>
+    </task>
+    <task id="LOCAL-00054" summary="removing all anclude references">
+      <created>1622638269720</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1622638269720</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updating most anclude's to #include statements&#10;adding next 10 20 rooms" />
-    <MESSAGE value="removing redundant long descriptions" />
     <MESSAGE value="updating all short and long descriptions for now" />
     <MESSAGE value="adding items to room4" />
     <MESSAGE value="adding items and description to room 5" />
@@ -442,21 +550,24 @@
     <MESSAGE value="adding next 10 rooms" />
     <MESSAGE value="adding more rooms.  Adding pierced breastplate armour for one of the rooms." />
     <MESSAGE value="adding up to room 100" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding up to room 100" />
+    <MESSAGE value="adding final rooms." />
+    <MESSAGE value="removing all anclude references" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing all anclude references" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="114" key="#Project_Structure" timestamp="1621281758678">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="440" y="111" key="#Project_Structure" timestamp="1623267559302">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="440" y="111" key="#Project_Structure/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1623267559302" />
     <state x="440" y="114" key="#Project_Structure/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621281758678" />
     <state x="679" y="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621281183921">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="679" y="406" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621281183921" />
-    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1621557788267">
+    <state x="587" y="108" key="CommitChangelistDialog2" timestamp="1622638269024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621557788267" />
+    <state x="587" y="108" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1622638269024" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1621204817903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -465,18 +576,19 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="420" y="172" width="1418" height="861" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621461808210" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1621557811553">
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1622638272209">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621557811553" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1622638272209" />
     <state x="559" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621459660268">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="559" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1621459660268" />
-    <state x="1203" y="102" width="628" height="888" key="find.popup" timestamp="1622638007912">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1203" y="99" width="628" height="864" key="find.popup" timestamp="1623267625601">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1203" y="102" width="628" height="888" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1622638007912" />
+    <state x="1203" y="99" width="628" height="864" key="find.popup/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1623267625601" />
+    <state x="1203" y="102" width="628" height="888" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1622638251305" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1621556017742">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

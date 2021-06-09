@@ -1,7 +1,7 @@
 //Lord
 //Pierced Breastplate
 #include <std.h>
-inherit ARMOUR;
+inherit SHIVA_ARMOUR;
 
 void create() {
 ::create();
