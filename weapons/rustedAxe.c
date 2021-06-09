@@ -1,5 +1,5 @@
 #include <std.h>
-inherit SHIVA_WEAPONS;
+inherit WEAPON;
 
 void create() {
 ::create();
