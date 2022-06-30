@@ -2,8 +2,8 @@
 // Tiny Monstrous Centipede
 //https://dungeons.fandom.com/wiki/SRD:Tiny_Monstrous_Centipede
 
- #include <std.h>
- #include <shivaCaverns.h>
+#include <std.h>
+#include <shivaCaverns.h>
 
 inherit MONSTER;
 

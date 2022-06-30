@@ -2,8 +2,8 @@
 // Tiny Monstrous Centipede
 //https://www.dandwiki.com/wiki/SRD:Large_Monstrous_Centipede
 
- #include <std.h>
- #include <shivaCaverns.h>
+#include <std.h>
+#include <shivaCaverns.h>
 
 inherit MONSTER;
 
