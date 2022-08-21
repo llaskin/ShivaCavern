@@ -13,6 +13,7 @@ void create() {
     "in the floor and ceilings.  Someone has scrawled "
     "something on the west wall.");
     set_smell("An unidentifiable odor fills the room");
+    set_sound("The sound of water can be heard from the west");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
     	"west wall" : "There is an inscription here: \"They"
