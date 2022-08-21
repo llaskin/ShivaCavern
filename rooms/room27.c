@@ -9,7 +9,7 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("A dark room");
-    set_day_long("The room has stalagtites and stalagmites "
+    set_day_long("The room has stalactites and stalagmites "
     "in the floor and ceilings.  Someone has scrawled an "
     "incomplete drawing of a dragon on the north wall.");
     set_smell("default", "The scent of urine fills the room");

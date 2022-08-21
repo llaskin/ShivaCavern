@@ -9,7 +9,7 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("A dark room");
-    set_day_long("The room has stalagtites and stalagmites "
+    set_day_long("The room has stalactites and stalagmites "
     "in the floor and ceilings.  A rope ascends to a catwalk"
     "hanging between the north and south walls, and a simple"
     "wooden table and lantern sit in the north-west corner"
@@ -26,6 +26,7 @@ void create() {
     ]));
     set_exits(([
 	"west" : SHIVA_ROOM + "room3.c",
+	//TODO: Add Catwalk room
     ]));
 }
 //
