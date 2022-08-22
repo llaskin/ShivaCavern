@@ -14,6 +14,7 @@ void create() {
     "Asar the Sorceror\" on the south wall." );
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+    	({"writing", "scrawl"}) : "The writing speaks of Asar the Sorceror",
     ]));
     set_listen("default", "Sporadic knocking can be faintly heard from the south wall.")
 

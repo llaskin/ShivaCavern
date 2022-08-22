@@ -25,4 +25,4 @@ void create() {
     if(!present("darkmantle"))
 	new(SHIVA_MONSTERS + "darkmantle")->move(this_object());
 
-}
+}//TODO

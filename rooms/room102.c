@@ -13,7 +13,8 @@ void create() {
     "in the floor and ceilings.  An iron shackle hanges from"
     "the ceiling");
     set_items(([
-	"shackle" : "It looks like someone was once imprisoned here",
+   ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+    "shackle" : "It looks like someone was once imprisoned here",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
@@ -24,6 +25,3 @@ void create() {
     "south" : SHIVA_ROOM + "room111",
     ]));
 }
-//Someone has scrawled "straight, straight, door, left"
-//on the north wall, and an iron chain hangs from the
-//  ceiling in the center of the room

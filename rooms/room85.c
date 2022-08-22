@@ -29,4 +29,4 @@ void create() {
     if(!present("smallMonstrousSpider"))
 	new(SHIVA_MONSTERS + "smallMonstrousSpider")->move(this_object());
 	new(SHIVA_MONSTERS + "smallMonstrousSpider")->move(this_object());
-}
+}//TODO

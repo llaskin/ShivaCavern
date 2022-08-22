@@ -31,4 +31,4 @@ void create() {
     if(!present("shrieker"))
 	new(SHIVA_MONSTERS + "shrieker")->move(this_object());
 
-}
+}//TODO

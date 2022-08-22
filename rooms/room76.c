@@ -12,6 +12,7 @@ void create() {
     set_day_long("The room has stalactites and stalagmites "
     "in the floor and ceilings.  There is an archway in the north wall");
     set_items(([
+    ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
 	"archway" : "It's an archway made of stone",
     ]));
     set_properties(([

@@ -13,6 +13,8 @@ void create() {
     "in the floor and ceilings.");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+    	"stalactite" : "This spiky growth grows up from the floor",
+    	"stalagmite" : "This rocky growth seems to extend down from the ceiling, terminating in a sharp point"
     ]));
 
     set_properties(([

@@ -14,6 +14,8 @@ void create() {
     "over the walls.");
     set_smell("A stench of mold fills the room.")
     set_items(([
+        ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+        ({"blood", "walls"}) : "The blood is splattered indiscriminately around the room",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,

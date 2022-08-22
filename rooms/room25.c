@@ -10,9 +10,10 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalactites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  Calcium deposits collect below most of the stalactites.");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+    	({"calcium", "deposits", "calcium deposits"}) : "Dusty piles of calcium lie on the floor around the room",
     ]));
 
     set_properties(([

@@ -10,7 +10,7 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalactites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  A formation in the shape of a maple leaf hangs from the ceiling.");
     set_items(([
     ]));
     set_properties(([
@@ -28,4 +28,4 @@ void create() {
     if(!present("largeMonstrousCentipede"))
 	new(SHIVA_MONSTERS + "largeMonstrousCentipede")->move(this_object());
 
-}
+}//tODO

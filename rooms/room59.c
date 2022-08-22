@@ -26,4 +26,4 @@ void create() {
     if(!present("mediumMonstrousSpider"))
 	new(SHIVA_MONSTERS + "mediumMonstrousSpider")->move(this_object());
 
-}
+}//TODO

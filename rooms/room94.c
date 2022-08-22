@@ -20,4 +20,4 @@ void create() {
     set_exits(([
 	"north" : SHIVA_ROOM + "room86",
     ]));
-}
+}//TODO

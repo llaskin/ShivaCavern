@@ -13,14 +13,15 @@ void create() {
     "in the floor and ceilings.  Several iron cages hang from"
     "the ceiling.");
     set_items(([
-	({"cages", "iron cages"}) : "These cages stand open, something escaped long ago.",
+       ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+        ({"cages", "iron cages"}) : "These cages stand open, something seens to have escaped long ago.",
     ]));
     set_properties(([
-	"light" : SHIVA_LIGHT,
-	"night light" : 0,
+        "light" : SHIVA_LIGHT,
+        "night light" : 0,
     ]));
     set_exits(([
-	"west" : SHIVA_ROOM + "room93",
+    	"west" : SHIVA_ROOM + "room93",
     ]));
     }
     void reset() {

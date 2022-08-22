@@ -12,16 +12,16 @@ void create() {
     set_day_long("The room has stalactites and stalagmites "
     "in the floor and ceilings.  There is a bookcase on one wall");
     set_items(([
-	"bookcase" : "It's full of books!",
+    	"bookcase" : "It's full of books!",
     ]));
     set_properties(([
-	"light" : SHIVA_LIGHT,
-	"night light" : 0,
+        "light" : SHIVA_LIGHT,
+        "night light" : 0,
     ]));
     set_exits(([
-	"west" : SHIVA_ROOM + "name",
-	"east" : SHIVA_ROOM + "room73",
-	"southeast" : SHIVA_ROOM + "room79",
-	"south" : SHIVA_ROOM + "room86",
+        "west" : SHIVA_ROOM + "name",
+        "east" : SHIVA_ROOM + "room73",
+        "southeast" : SHIVA_ROOM + "room79",
+        "south" : SHIVA_ROOM + "room86",
     ]));
-}
+}//TODO

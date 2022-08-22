@@ -30,4 +30,4 @@ void create() {
 void reset() {
     if(!present("piercedBreastplate"))
 	new(SHIVA_ARMOUR + "piercedBreastplate")->move(this_object());
-}
+}//TODO

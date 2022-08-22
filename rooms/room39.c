@@ -27,4 +27,4 @@ void create() {
     if(!present("krenshar"))
 	new(SHIVA_MONSTERS + "krenshar")->move(this_object());
 
-}
+}//TODO

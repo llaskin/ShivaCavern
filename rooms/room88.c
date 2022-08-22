@@ -27,8 +27,8 @@ void create() {
 	"west" : SHIVA_ROOM + "room87",
 	"south" : SHIVA_ROOM + "room95",
     ]));
-    }
-    void reset() {
+}
+void reset() {
     if(!present("tinyMonstrousCentipede"))
 	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());
 	new(SHIVA_MONSTERS + "tinyMonstrousCentipede")->move(this_object());

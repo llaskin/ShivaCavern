@@ -24,5 +24,4 @@ void create() {
 	"north" : SHIVA_ROOM + "room62",
     ]));
 }
-//A chute falls into the room from above, and someone
-//  has scrawled "Abandon all hope" on the west wall
+//TODO: add search garbage to find something?

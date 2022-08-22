@@ -36,6 +36,6 @@ int drink(string str) {
   "the wall.", this_player());
   message("info", this_player()->query_cap_name()+" drinks some water from
 the spring.", this_object(), this_player());
-  if(this_player()->add_quenched(50)) this_player()->poison(10);
+  if(this_player()->add_quenched(50)) this_player()->add_poisoning(10);
   return 1;
 }

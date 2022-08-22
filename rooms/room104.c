@@ -10,8 +10,11 @@ void create() {
 ::create();
     set_short("A dark room");
     set_day_long("The room has stalactites and stalagmites "
-    "in the floor and ceilings.");
+    "in the floor and ceilings.  The ceiling is high above your head with two distinct domes in the roof");
     set_items(([
+       ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+       "dome" : "These domed ceilings have been carved out of the ceilings by repeated flood cycles over the years"
+
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,

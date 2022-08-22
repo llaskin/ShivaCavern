@@ -29,4 +29,4 @@ void create() {
     void reset() {
     if(!present("rustedAxe"))
 	new(SHIVA_MISC + "rustedAxe")->move(this_object());
-}
+}//TODO

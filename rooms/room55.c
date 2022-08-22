@@ -29,4 +29,4 @@ void create() {
     if(!present("largeMonstrousCentipede"))
 	new(SHIVA_MONSTERS + "largeMonstrousCentipede")->move(this_object());
 
-}
+}//TODO

@@ -17,7 +17,6 @@ void create() {
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
     	"altar" : "This is an altar of evil",
     	"shields" : "These shields are destroyed from abuse"
-
     ]));
 
     set_properties(([

@@ -20,8 +20,7 @@ void create() {
     set_id(({"marauder", "ethereal marauder"}));
     set_level(SHIVA_CHALLENGE_LEVEL3);
     set_race("marauder");
-    set_body_type("elemental");  //TODO: Set body type to
-                                //something new?
+    set_body_type("elemental");
     set_gender("male");
 
 }
