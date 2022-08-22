@@ -19,4 +19,6 @@ void create() {
     set_race("feline");
     set_body_type("quadruped");
     set_gender("male");
+
+    new(SHIVA_MISC + "fur_tuft")->move(this_object());
 }

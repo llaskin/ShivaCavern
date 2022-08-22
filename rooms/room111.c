@@ -13,6 +13,7 @@ void create() {
     "in the floor and ceilings.  You have to duck very low as the ceiling is extremely low in this room.");
     set_items(([
         ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+        "ceiling":"The ceiling comes down so low that you are nearly crawling through the room."
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
@@ -27,4 +28,4 @@ void reset() {
     if(!present("bentCoins"))
 	new(SHIVA_MISC + "bentCoins")->move(this_object());
 
-}//TODO
+}

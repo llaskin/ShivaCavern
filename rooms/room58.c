@@ -13,7 +13,8 @@ void create() {
     "in the floor and ceilings.  There is a carving in one of"
      "the walls");
     set_items(([
-	"carving" : "A mouth of a demonic face jumps out from the stone",
+        ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+    	"carving" : "A mouth of a demonic face jumps out from the stone",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,

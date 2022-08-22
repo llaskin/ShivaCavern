@@ -26,7 +26,7 @@ void create() {
     ]));
     set_exits(([
 	"west" : SHIVA_ROOM + "room3.c",
-	//TODO: Add Catwalk room
+	"up" : SHIVA_ROOM + "catwalk.c",
     ]));
 }
 //

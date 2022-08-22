@@ -20,6 +20,5 @@ void create() {
     set_race("darkmantle");
     set_body_type("human");//TODO create darkmantle body
     set_gender("male");
+    set_spells(({"blind"}));
 }
-//TODO: Give them a crush skill based on the description
-//online

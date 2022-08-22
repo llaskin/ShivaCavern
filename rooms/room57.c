@@ -12,6 +12,7 @@ void create() {
     set_day_long("The room has stalactites and stalagmites "
     "in the floor and ceilings.");
     set_items(([
+            ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,

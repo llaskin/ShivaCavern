@@ -11,9 +11,10 @@ void create() {
     set_short("A dark room");
     set_day_long("The room has stalactites and stalagmites "
     "in the floor and ceilings.  There are a series of masks"
-    "hanging from the wall");
+    "hanging from the wall. ");
     set_items(([
-	({"mask", "masks"}) : "A set of demonic war masks hangs here",
+        ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+        ({"mask", "masks"}) : "A set of demonic war masks hangs here",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
@@ -26,7 +27,7 @@ void create() {
 	"south" : SHIVA_ROOM + "room76",
     ]));
 }
-    void reset() {
+void reset() {
     if(!present("rustedAxe"))
-	new(SHIVA_MISC + "rustedAxe")->move(this_object());
+	    new(SHIVA_MISC + "rustedAxe")->move(this_object());
 }//TODO

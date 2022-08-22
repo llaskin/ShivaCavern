@@ -12,6 +12,8 @@ void create() {
     set_day_long("The room has stalactites and stalagmites "
     "in the floor and ceilings.  A formation in the shape of a maple leaf hangs from the ceiling.");
     set_items(([
+            ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+            "maple leaf": "This rock is shaped like a leaf that just fell from a maple tree"
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
@@ -28,4 +30,4 @@ void create() {
     if(!present("largeMonstrousCentipede"))
 	new(SHIVA_MONSTERS + "largeMonstrousCentipede")->move(this_object());
 
-}//tODO
+}

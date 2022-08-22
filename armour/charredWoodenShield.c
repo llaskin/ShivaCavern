@@ -16,5 +16,3 @@ void create() {
     set_limbs(({"torso", "left arm"}));
     set_material(({"wood"}));
 }
-//TODO: How to make this a shield, and make sure it doesn't
-//block other wearings

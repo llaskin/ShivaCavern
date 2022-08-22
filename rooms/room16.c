@@ -13,9 +13,11 @@ void create() {
     "burning in the middle.  A ruined siege weapon sits in "
     "the southeast corner of the room.");
     set_smell("A sour odor fills the room");
+    set_listen("Chimes play around you")
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
-    	({"siege weapon"}): "This is a destroyed siege weapon"
+    	({"siege weapon"}): "This is a destroyed siege weapon",
+
     ]));
 
     set_properties(([

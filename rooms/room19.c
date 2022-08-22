@@ -15,7 +15,8 @@ void create() {
     "south east corner of the room.");
     set_items(([
     	({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
-        ({"mirror", "magic mirror"}) : "This mirror will answer any questions you ask it",
+        ({"mirror", "magic mirror"}) : "This mirror might answer any questions you ask it",
+        ({"cube", "solid stone"}) : "This ashler has been hewn smooth, over years perhaps",
     ]));
 
     set_properties(([
@@ -36,4 +37,3 @@ void create() {
 	new(SHIVA_MONSTERS + "darkmantle")->move(this_object());
 
 }
-//TODO: deed or quest with mirror?

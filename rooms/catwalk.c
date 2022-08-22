@@ -1,5 +1,5 @@
 // by Lord
-// room, file=filename    
+// room, file=room4.c
 
 #include <std.h>
 #include <shivaCaverns.h>
@@ -9,20 +9,21 @@ inherit ROOM;
 void create() {
 ::create();
     set_short("A dark room");
-    set_day_long("The room has stalactites and stalagmites "
-    "in the floor and ceilings.");
+    set_day_long("The catwalk hangs low below the ceiling's rocky outcroppings.  It's rickety and falling apart but can support your weight.");
     set_items(([
         ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
+        "floor" : "The boards of the bridge are in rough shape",
     ]));
     set_properties(([
 	"light" : SHIVA_LIGHT,
 	"night light" : 0,
     ]));
     set_exits(([
-	"east" : SHIVA_ROOM + "room88",
+	"down" : SHIVA_ROOM + "catwalk.c",
     ]));
 }
 void reset() {
-    if(!present("piercedBreastplate"))
-	new(SHIVA_ARMOUR + "piercedBreastplate")->move(this_object());
-}//TODO
+    if(!present("dwarf"))
+	new(SHIVA_MONSTERS + "dwarf")->move(this_object());
+
+}

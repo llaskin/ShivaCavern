@@ -13,6 +13,7 @@ void create() {
     "in the floor and ceilings.  There is a bookcase on one wall");
     set_items(([
     	"bookcase" : "It's full of books!",
+    	 ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
     ]));
     set_properties(([
         "light" : SHIVA_LIGHT,

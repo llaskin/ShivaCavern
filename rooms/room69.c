@@ -13,6 +13,7 @@ void create() {
     "in the floor and ceilings.  There is some small writing above "
     "the door to the east.");
     set_items(([
+     ({"stalactites", "stalagmites"}) : "Rocky outcroppings appear from the floor and ceiling",
 	"writing" : "The writing says \"The Lions of Naramunz killed a white dragon here\"",
     ]));
     set_properties(([

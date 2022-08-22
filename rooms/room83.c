@@ -24,4 +24,4 @@ void create() {
 	"west" : SHIVA_ROOM + "room82",
 	"east" : SHIVA_ROOM + "room93",
     ]));
-}//TODO
+}

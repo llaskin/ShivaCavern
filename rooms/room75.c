@@ -28,7 +28,7 @@ void reset() {
     set_search("ledge", (: this_object(), "ledge_searching" :));
 }
 
-void leaf_searching() {
+void ledge_searching() {
     message("my_action", "After searching along the top of the ledge you find a wine goblet!", this_player());
     message("other_action", this_player()->query_cap_name()+" finds "
       "a goblet of wine.", this_object(), ({ this_player() }));
