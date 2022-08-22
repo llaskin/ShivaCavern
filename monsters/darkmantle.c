@@ -18,7 +18,7 @@ void create() {
     set_id(({"darkmantle"}));
     set_level(SHIVA_BASELEVEL);
     set_race("darkmantle");
-    set_body_type("human");//TODO create darkmantle body
+    set_body_type("human");
     set_gender("male");
     set_spells(({"blind"}));
 }
