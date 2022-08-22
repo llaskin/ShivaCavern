@@ -19,7 +19,7 @@ void create() {
 	"night light" : 0,
     ]));
     set_exits(([
-	"down" : SHIVA_ROOM + "catwalk.c",
+	"down" : SHIVA_ROOM + "room4.c",
     ]));
 }
 void reset() {
